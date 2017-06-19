@@ -18,11 +18,11 @@ A metric in Snap has the following fields:
   
   The framework currently adds the following standard tag to all metrics
   `plugin_running_on` describing on which host the plugin is running. This value is updated every hour due to a TTL set internally.
+* Timestamp `time.Time` - Describes when the metric was collected  
 * Unit `string` - Describes the magnitude being measured
  Can be an empty string for unitless data
  See [Metrics20.org](http://metrics20.org/spec/) for more guidance on units
 * Description `string` - Is stored in the metric catalog and meant to give the user more details about the metric such as how it is derived
-* Timestamp `time.Time` - Describes when the metric was collected  
 
 ## Static Metrics
 
