@@ -14,7 +14,7 @@ A metric in Snap has the following fields:
 * Tags `map[string]string` - Are key value pairs that provide additional metadata about the metric  
   May be added by a task manifests (as described [here](https://github.com/intelsdi-x/snap/blob/master/docs/TASKS.md#collect) and [here](https://github.com/intelsdi-x/snap/issues/827)).  
   May be added by the snapteld config (as described [here](https://github.com/intelsdi-x/snap/blob/master/docs/SNAPTELD_CONFIGURATION.md#snapteld-control-configurations) and [here](https://github.com/intelsdi-x/snap/issues/827)).  
-  May be added by the framework or other plugins (processors) (as described [here](https://github.com/intelsdi-x/snap-plugin-processor-tag/blob/master/README.md#examples)). 
+  May be added by the framework or other plugins (processors) (as described [here](https://github.com/intelsdi-x/snap-plugin-processor-tag/blob/master/README.md#examples)).  
   The framework currently adds the following standard tag to all metrics
   `plugin_running_on` describing on which host the plugin is running. This value is updated every hour due to a TTL set internally.
 * Unit `string` - Describes the magnitude being measured
