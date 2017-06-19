@@ -13,7 +13,7 @@ A metric in Snap has the following fields.
 * Data `interface{}` - The collected data
 * Tags `map[string]string` - Are key value pairs that provide additional metadata about the metric  
   May be added by the framework or other plugins (processors) (as described [here](https://github.com/intelsdi-x/snap-plugin-processor-tag/blob/master/README.md#examples)).  
-  May be added by a task manifests (as described [here](https://github.com/intelsdi-x/snap/blob/master/docs/TASKS.md#collect) and [here](https://github.com/intelsdi-x/snap/pull/941)).  
+  May be added by a task manifests (as described [here](https://github.com/intelsdi-x/snap/blob/master/docs/TASKS.md#collect) and [here](https://github.com/intelsdi-x/snap/issues/827)).  
   May be added by the snapteld config (as described [here](https://github.com/intelsdi-x/snap/blob/master/docs/SNAPTELD_CONFIGURATION.md#snapteld-control-configurations) and [here](https://github.com/intelsdi-x/snap/issues/827)).  
   
   The framework currently adds the following standard tag to all metrics
