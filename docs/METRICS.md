@@ -1,7 +1,7 @@
 
 # Snap Metrics
 
-A metric in Snap has the following fields.
+A metric in Snap has the following fields:
 
 * Namespace `[]core.NamespaceElement` - Uniquely identifies the metric
 * LastAdvertisedTime `time.Time` - Describes when the metric was added to the metric catalog
